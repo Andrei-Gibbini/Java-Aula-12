@@ -34,7 +34,7 @@ public class Main {
                         geo.calcularArea(raio);
                         break;
                     default:
-                        throw new Exception("Escolha Incorreta");
+                        throw new Exception("Escolha Incorreta!");
                 }
                 escolha = JOptionPane.showInputDialog("Deseja continuar?");
             } catch (Exception e) {

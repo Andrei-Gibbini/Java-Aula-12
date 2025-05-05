@@ -39,13 +39,13 @@ public class Geometria {
     public void calcularArea(float lado) {
         setLado(lado);
         float area = this.lado * this.lado;
-        JOptionPane.showMessageDialog(null, String.format("Área do quadrado: %f.2f", area));
+        JOptionPane.showMessageDialog(null, String.format("Área do quadrado: %.2f", area));
     }
     public void calcularArea(float lado, float altura) {
         setLado(lado);
         setAltura(altura);
         float area = this.lado * this.altura;
-        JOptionPane.showMessageDialog(null, String.format("Área do quadrado: %.2f", area));
+        JOptionPane.showMessageDialog(null, String.format("Área do retângulo: %.2f", area));
     }
     public void calcularArea(double raio) {
         setRaio(raio);
